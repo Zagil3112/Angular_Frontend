@@ -1,3 +1,6 @@
+<img src="/images/esquema.png" alt="drawing" width="600"/>
+<img src="/images/front.png" alt="drawing" width="600"/>
+
 # FrontInventory
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.10.
