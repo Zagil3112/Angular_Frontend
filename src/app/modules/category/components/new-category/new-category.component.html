@@ -1,0 +1,58 @@
+<h2 mat-dialog-title> {{ estadoFormulario }} nueva Categoría </h2>
+<mat-dialog-content>
+
+    <form [formGroup]="categoryForm">
+        <div class="category-container">
+
+            <mat-form-field>
+                <input matInput placeholder="Usuario" formControlName="user" required/>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput placeholder="OU" formControlName="ou" required>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput placeholder="O" formControlName="o" required>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput placeholder="L" formControlName="l" required>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput placeholder="ST" formControlName="st" required>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput placeholder="C" formControlName="c" required>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput placeholder="CA Name" formControlName="caName" required>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput placeholder="Pass" formControlName="pass" required>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput placeholder="URL" formControlName="url" required>
+            </mat-form-field>
+
+        </div>
+
+    </form>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+
+    <button mat-button color="primary" (click)="onSave()" [disabled]="categoryForm.invalid">
+        <mat-icon>save</mat-icon> Guardar
+    </button>
+
+    <button mat-button color="primary" (click)="onCancel()">
+        <mat-icon>cancel</mat-icon> Cancelar
+    </button>
+
+</mat-dialog-actions>
