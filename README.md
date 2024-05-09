@@ -1,5 +1,5 @@
 <img src="/images/esquema.png" alt="drawing" width="600"/>
-<img src="/images/front.png" alt="drawing" width="600"/>
+<img src="/images/front.jpg" alt="drawing" width="600"/>
 
 # FrontInventory
 
